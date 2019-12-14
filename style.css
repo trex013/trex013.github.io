@@ -1,0 +1,158 @@
+* {padding:0; margin:0;box-sizing:border-box;}
+.bgt-data-page {
+	background:pink;}
+.data-1, .data-2 {
+	padding:10px;
+}
+.data-1 h2 , .data-2 h2{
+	text-align: center;
+}
+.left, .right {
+	float:left;
+	width:50%;
+	padding:10px;
+}
+
+.left > ol {
+	background:pink;
+	padding:8px;
+}
+
+.right > ol {
+	background:cyan;
+}
+
+.head {
+	background-image: url(../2.jpg);
+	height: 350px;
+}
+.bgt-form{
+	background: grey;
+	width:100%;
+}
+div ol li{
+	margin:0 10px;
+	list-style-type:arabic;
+	padding:5px 10px;
+	background:whitesmoke;
+	border:.5px solid grey;
+	box-shadow: 0px 0px 2px grey;
+	text-align:center;
+}
+
+div ol li:not(:last-child){
+	border-bottom: 0px;
+}
+
+span#amt {
+	padding:5px;
+	display: inline-block;
+	background: lightblue;
+	font-weight: bold;
+	margin: 0px 20px;
+}
+
+section.html {
+	padding: 5%;
+}
+
+
+form[name = "bgt"] > * {
+	display: block;
+	float:left;
+	border:none;
+	height:30px;
+	padding:0 5px;
+}
+
+.clearfix::after {
+	content:"";
+	display:block;
+	clear: both;
+}
+
+.foot {
+	height:30px;
+	padding:5px;
+	color:whitesmoke;
+	background:grey;
+	text-align:center;
+}
+
+.total-cont {
+	height:inherit;
+}
+.total.center {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+span#percent {
+	font-size:20px;
+}
+.total.center>h1 {
+	position: absolute;
+	background:maroon;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	font-size: 70px;
+	color:white;
+}
+.center {text-align:center;}
+.center > div {
+	display:inline-block;
+	background:grey;
+	padding:6px;
+}
+
+i.delete{
+	background:gray;
+	color:red;
+	border-radius:50%;
+	padding:0 5px;
+}
+
+nav.nav-float-cont {
+	position: relative;
+	top:-350px;
+	height:350px;
+}
+
+.nav-cont{
+	position: absolute;
+	bottom:0;
+	right:0;
+	background:yellow;
+	padding:10px;
+	margin:10px;
+}
+.nav-cont ul {
+	list-style-type:none;
+}
+
+.nav-cont ul li {
+	display:inline-block;
+}
+.nav-cont ul li a{
+	display:block;
+	transition:0.5s;
+	font-weight:bold;
+}
+
+.nav-cont ul li:not(:last-child){
+	border-right:3px groove grey;
+	padding-right:5px;
+}
+
+.nav-cont ul li a:hover {
+	background: brown;
+	color:white;
+}
+	
+	
+	
+	
+
+
+
